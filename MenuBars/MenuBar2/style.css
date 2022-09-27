@@ -1,0 +1,31 @@
+body {
+    background-color: blueviolet;
+}
+
+.top, .mid, .bottom {
+    width: 35px;
+    height: 6px;
+    background-color: black;
+    margin: 5px 5px;
+    transition: 0.5s;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Rotate first bar */
+.close .top {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.close .mid {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.close .bottom {
+    transform: translate(0, -11px) rotate(45deg);
+}
