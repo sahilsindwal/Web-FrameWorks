@@ -1,0 +1,23 @@
+
+body{
+    background-color: blueviolet;
+}
+
+.bar {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 5px 5px;
+}
+
+.container{
+    display: inline-block;
+    
+}
+
+/* for animation */
+.container:hover{
+    scale: 120%;
+    transition: 0.5s;
+    cursor: pointer;
+}
