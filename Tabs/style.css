@@ -1,0 +1,33 @@
+.tab {
+    text-align: center;
+   background-color: antiquewhite;
+   border: 1px solid rgb(243, 210, 168);
+  }
+
+  .tab button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem;
+    transition: 1s;
+  }
+
+  /* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: rgb(138, 66, 66);
+  }
+
+  /* Create an active/current tablink class */
+.tab button.active {
+    background-color: rgb(44, 41, 41);
+    color: aliceblue;
+  }
+
+  /* Style the tab content */
+.tabcontent {
+    display: none;
+    margin-top: 5px;
+    border-top: none;
+    padding: 4rem;
+    box-shadow: 1px 1px 7px 1px ;
+  }
