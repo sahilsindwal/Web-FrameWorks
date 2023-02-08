@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo h2 {
+    width: 160px;
+    transform: rotate(-7deg);
+    padding: 10px;
+    margin: 4px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 2rem;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 80%;
+    border-bottom: 2px solid rgb(57, 56, 58);
+    box-shadow: 5px 5px 5px  rgb(57, 57, 58);
+
+}
